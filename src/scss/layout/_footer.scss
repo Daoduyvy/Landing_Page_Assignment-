@@ -1,0 +1,96 @@
+.footer {
+  background-color: #202942;
+  left: 0;
+  bottom: 0;
+  width: 1200px;
+
+  .footer__content {
+    align-items: center;
+
+    .footer_content--item {
+      color: #ADB5BD;
+      font-size: 16px;
+      line-height: 25.6px;
+      vertical-align: top;
+      margin-top: 11px;
+    }
+
+    .footer_content--email {
+      background-color: #25304E;
+      border-radius: 10px;
+      height: 42px;
+      width: 255px;
+      margin-bottom: 20px;
+      margin-top: 8px;
+    }
+
+    .footer_content--subscribe {
+      background-color: #2F55D4;
+      border-radius: 10px;
+      height: 42px;
+      width: 255px;
+      margin-top: 20px;
+    }
+  }
+
+  .footer__landrick {
+    display: inline-block;
+    width: 348px;
+    vertical-align: top;
+  }
+
+  .footer__company {
+    margin-left: 25px;
+    display: inline-block;
+    width: 222px;
+    vertical-align: top;
+  }
+
+  .footer__userfulllink {
+    display: inline-block;
+    width: 216px;
+    vertical-align: top;
+  }
+
+  .footer__newsletter {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .footer_content--items {
+    margin-top: 26px;
+    margin-bottom: 60px;
+  }
+
+  .footer__title {
+    padding-top: 59px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    vertical-align: top;
+    color: #F8F9FC;
+  }
+
+  .footer__email--title {
+    align-items: center;
+  }
+
+  .footer__bottom--content {
+    width: 50%;
+    margin-top: 1px;
+    @include custom-font(16px, 26px, 0px, #ADB5BD);
+  }
+
+  .footer__bottom--images {
+    margin-top: 15px;
+    width: 50%;
+    float: right;
+
+    .footer__bottom--image {
+      margin-right: 5px;
+      width: 37px;
+      float: right;
+    }
+  }
+
+}

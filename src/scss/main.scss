@@ -12,6 +12,8 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import 'base/reset';
 @import 'base/typography';
 
+@import "components/buttons";
+
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';
@@ -19,3 +21,4 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 @import 'pages/home';
 @import 'pages/about';
+@import "pages/index";

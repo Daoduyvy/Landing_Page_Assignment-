@@ -1,0 +1,10 @@
+@mixin button-width($width,$font-weight){
+  width: $width;
+  font-weight: $font-weight;
+}
+@mixin custom-font($font-size, $line-height,$letter-spacing,$color){
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}

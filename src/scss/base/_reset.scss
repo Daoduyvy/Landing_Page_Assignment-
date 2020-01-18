@@ -1,5 +1,8 @@
 html, body {
+  padding-left: 10%;
   margin: 0;
+  font-family: Nunito;
+  width: 1200px;
 }
 
 ul {
@@ -7,7 +10,23 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+p{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+}
+.star-icon{
+  margin-top: 24px;
+  margin-bottom: 15px;
+  width: 16px;
+  height: 16px;
+  color: yellow;
+}
 a {
   text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+  color: #3C4858;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

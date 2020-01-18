@@ -1,0 +1,41 @@
+.btn{
+  border-radius: 10px;
+  height: 42px;
+  width: 255px;
+  outline: none;
+}
+.btn-subscribe{
+  @include button-width(255px,bold);
+}
+.btn-theme{
+  background-color: #2F55D4;
+  color: white;
+  font-size: 16px;
+}
+.btn-buynow{
+  @include button-width(113px,normal);
+  float: right;
+  margin-top: 14px;
+  &:hover{
+    background-color: #2443AC;
+  }
+}
+.btn-trial{
+  @include button-width(180px,normal);
+  margin: 0 auto;
+}
+.btn-getstarted{
+  @include button-width(174px,normal);
+}
+.btn-freetrial{
+  @include  button-width(114px,normal);
+  background-color: #ffffff;
+  border: 1px solid #2F55D4;
+  box-sizing: border-box;
+  color: #2F55D4;
+  margin-left: 8px;
+  &:hover{
+    background-color: #2F55D4;
+    color: #ffffff;
+  }
+}

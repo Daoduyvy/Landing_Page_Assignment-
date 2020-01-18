@@ -1,35 +1,244 @@
-.index-page {
-  .phone {
-    background: url('~images/gray-bg.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    // position: relative;
+.about {
+  margin-top: 1px;
+  margin-bottom: 39px;
 
-    &-col {
-      width: 50%;
-      float: left;
+  .about__title {
+    margin: 0 auto;
+
+    .about__title--content {
+      text-align: center;
+      @include custom-font(35px, 52px, 0.8px, #161C2D);
+    }
+  }
+
+  .about__content {
+    justify-content: center;
+
+    .about_content--text {
+      text-align: center;
+      @include custom-font(18px, 29px, 0px, #8492A6);
+    }
+  }
+
+  .about__image {
+    margin-top: 60px;
+    justify-content: center;
+  }
+}
+
+.client {
+  margin-bottom: 209.8px;
+
+  .client__title {
+    margin: 0 auto;
+
+    .client__title--content {
+      text-align: center;
+      @include custom-font(35px, 52px, 0.8px, #161C2D);
+    }
+  }
+
+  .client__content {
+    justify-content: center;
+
+    .client_content--text {
+      text-align: center;
+      @include custom-font(16px, 26px, 0px, #8492A6);
+    }
+  }
+
+  .client__image {
+    display: inline-block;
+    margin-right: 97px;
+  }
+
+  .image-last {
+    margin-right: 0;
+  }
+}
+
+.svg {
+  margin-bottom: 197px;
+
+  .svg__param {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+  }
+
+  .svg__sandclock {
+    width: 34%;
+    float: left;
+  }
+
+  .svg__icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .svg__custom--title {
+    margin-top: 24px;
+
+    .svg__title {
+      @include custom-font(20px, 30px, 0px, #161C2D);
+    }
+  }
+
+  .svg__user--content {
+    margin-top: 9px;
+
+    .svg__content {
+      @include custom-font(16px, 26px, 0px, #8492A6);
+    }
+  }
+}
+
+.product {
+  margin-bottom: 100px;
+
+  .product__title--params {
+    @include custom-font(30px, 45px, 0.5px, #161C2D);
+    max-width: 487px;
+    margin-bottom: 23px;
+  }
+
+  .product__params {
+    width: 523px;
+    @include custom-font(14px, 22px, 0px, #8492A6);
+    margin-bottom: 23px;
+  }
+
+
+  .product__image--left {
+    width: 50%;
+    float: left;
+  }
+
+  .product__content--left {
+    width: 50%;
+    float: left;
+  }
+
+  .product__image--right {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .product__content--right {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .product__icon--color {
+    color: green;
+    width: 18px;
+  }
+  .product_content--fix{
+    padding-left: 46px;
+  }
+  .product_findmores {
+    @include custom-font(16px, 24px, 0px, #2F55D4);
+
+    &:hover {
+      color: #0056B3;
+    }
+  }
+
+  .product__app-image {
+    width: 445px;
+    border-radius: 0px;
+    margin-left: 93px;
+    margin-bottom: 106.7px;
+  }
+}
+
+.landrick {
+  margin-bottom: 100px;
+
+  .landrick__title {
+    justify-content: center;
+
+    .landrick__title--content {
+      margin: 0;
+      padding-bottom: 5px;
+      text-align: center;
+      @include custom-font(35px, 52px, 0.8px, #161C2D);
+    }
+  }
+
+  .landrick__content {
+    justify-content: center;
+
+    .landrick_content--text {
+      text-align: center;
+      @include custom-font(18px, 29px, 0px, #8492A6);
+      margin-bottom: 59px;
+    }
+  }
+
+  .landrick__male {
+    width: 50%;
+    float: left;
+  }
+
+  .landrick__female {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .landrick__profile--images {
+    margin-left: 143px;
+    margin-bottom: 143px;
+
+    .landrick_profile--image {
+      width: 80px;
+      vertical-align: top;
+    }
+  }
+
+  .landrick__profile--contents {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 302px;
+    height: 193px;
+    display: inline-block;
+
+    .landrick__profile--content {
+      margin-left: 16px;
+      margin-right: 31px;
     }
 
-    &-content {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+    .profile__content--text {
+      @include custom-font(16px, 26px, 0, #8492A6)
     }
 
-    &-para {
-      width: 50%;
-      padding-right: 30px;
-      box-sizing: border-box;
+    .profile__content--name {
+      @include custom-font(16px, 24px, 0, #2F55D4)
     }
+  }
+}
+.employee{
+  margin-bottom: 100px;
+  .employee__title {
+    justify-content: center;
 
-    &:after {
-      display: block;
-      content: '';
-      width: 0;
-      height: 0;
-      border-right: 100vw solid red;
-      border-top: 100px solid transparent;
+    .employee__title--content {
+      margin: 0;
+      padding-bottom: 5px;
+      text-align: center;
+      @include custom-font(35px, 52px, 0.8px, #161C2D);
     }
+  }
+  .employee__content {
+    justify-content: center;
+
+    .employee__content--text {
+      text-align: center;
+      @include custom-font(18px, 29px, 0px, #8492A6);
+      margin-bottom: 59px;
+    }
+  }
+  .employee__button{
+    justify-content: center;
   }
 }
